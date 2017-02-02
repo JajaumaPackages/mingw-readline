@@ -2,7 +2,7 @@
 
 Name:           mingw-readline
 Version:        6.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        MinGW port of readline for editing typed command lines
 
 License:        GPLv2+
@@ -134,6 +134,9 @@ rm -f $RPM_BUILD_ROOT%{mingw64_datadir}/readline/*.c
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 6.2-8
+- Rebuilt with GCC 5.4.0
+
 * Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 6.2-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
 
